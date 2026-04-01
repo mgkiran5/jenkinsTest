@@ -56,8 +56,8 @@ public class TestCase1 {
 	public void print5th() {
 		System.out.println("Printed 5th");
 		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		WebElement ele2 = wait.until(ExpectedConditions.presenceOfElementLocated(By.name("emailid")));
-		ele2.sendKeys("testvendor172@gmail.com");
+		//WebElement ele2 = wait.until(ExpectedConditions.presenceOfElementLocated(By.name("emailid")));
+		//ele2.sendKeys("testvendor172@gmail.com");
 		WebElement ele = wait.until(ExpectedConditions.presenceOfElementLocated(By.name("btnLogin")));
 		ele.click();
 		WebElement ele3 = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//td[text()='mngr657474 ']")));
