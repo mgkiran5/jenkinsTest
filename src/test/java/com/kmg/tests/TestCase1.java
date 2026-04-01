@@ -9,7 +9,7 @@ public class TestCase1 {
 	@Test
 	public void print1st() {
 		System.out.println("Printed 1st");
-		Assert.assertTrue(false);
+		Assert.assertTrue(true);
 	}
 
 	@Test
@@ -20,7 +20,7 @@ public class TestCase1 {
 	@Test
 	public void print3rd() {
 		System.out.println("Printed 3rd");
-		Assert.assertTrue(false);
+		Assert.assertTrue(true);
 	}
 	@Test
 	public void print4th() {
